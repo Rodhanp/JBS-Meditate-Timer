@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/JBS-Meditate-Timer/static/css/main.88fd32dc.chunk.css",
-    "main.js": "/JBS-Meditate-Timer/static/js/main.5aee486e.chunk.js",
-    "main.js.map": "/JBS-Meditate-Timer/static/js/main.5aee486e.chunk.js.map",
-    "runtime-main.js": "/JBS-Meditate-Timer/static/js/runtime-main.5e567173.js",
-    "runtime-main.js.map": "/JBS-Meditate-Timer/static/js/runtime-main.5e567173.js.map",
+    "main.js": "/JBS-Meditate-Timer/static/js/main.4118fd77.chunk.js",
+    "main.js.map": "/JBS-Meditate-Timer/static/js/main.4118fd77.chunk.js.map",
+    "runtime-main.js": "/JBS-Meditate-Timer/static/js/runtime-main.08a694d4.js",
+    "runtime-main.js.map": "/JBS-Meditate-Timer/static/js/runtime-main.08a694d4.js.map",
     "static/css/2.4aef34f6.chunk.css": "/JBS-Meditate-Timer/static/css/2.4aef34f6.chunk.css",
-    "static/js/2.03860ebc.chunk.js": "/JBS-Meditate-Timer/static/js/2.03860ebc.chunk.js",
-    "static/js/2.03860ebc.chunk.js.map": "/JBS-Meditate-Timer/static/js/2.03860ebc.chunk.js.map",
+    "static/js/2.e3bc0d44.chunk.js": "/JBS-Meditate-Timer/static/js/2.e3bc0d44.chunk.js",
+    "static/js/2.e3bc0d44.chunk.js.map": "/JBS-Meditate-Timer/static/js/2.e3bc0d44.chunk.js.map",
     "index.html": "/JBS-Meditate-Timer/index.html",
     "static/css/2.4aef34f6.chunk.css.map": "/JBS-Meditate-Timer/static/css/2.4aef34f6.chunk.css.map",
     "static/css/main.88fd32dc.chunk.css.map": "/JBS-Meditate-Timer/static/css/main.88fd32dc.chunk.css.map",
-    "static/js/2.03860ebc.chunk.js.LICENSE.txt": "/JBS-Meditate-Timer/static/js/2.03860ebc.chunk.js.LICENSE.txt"
+    "static/js/2.e3bc0d44.chunk.js.LICENSE.txt": "/JBS-Meditate-Timer/static/js/2.e3bc0d44.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e567173.js",
+    "static/js/runtime-main.08a694d4.js",
     "static/css/2.4aef34f6.chunk.css",
-    "static/js/2.03860ebc.chunk.js",
+    "static/js/2.e3bc0d44.chunk.js",
     "static/css/main.88fd32dc.chunk.css",
-    "static/js/main.5aee486e.chunk.js"
+    "static/js/main.4118fd77.chunk.js"
   ]
 }
