@@ -1,7 +1,16 @@
-Jai Baba Swami
+<h1 align="center"> Jai Baba Swami </h1>
 
-A JBS Meditation Timer created on ReactJS and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</p>
 
+<p align="center">
+  <a href="https://en.samarpanmeditation.org/"><img alt="Built by GuruShaktis" src="https://img.shields.io/badge/built%20by-GuruShaktis-brightgreen.svg?colorB=d30320"></a>
+  
+  </p>
+
+### A JBS Meditation Timer created for all by the grace of Gurushaktis and Gurutattva using ReactJS and bootstrapped with Create React App(https://github.com/facebook/create-react-app).
+ 
+
+![Screenshot 2021-07-31 075418](https://user-images.githubusercontent.com/71846548/127725982-dc1a8739-5199-48c0-9a55-10bde39dfad7.jpg)
 
 ## How to run?
 Clone the repository
@@ -34,15 +43,11 @@ Your app is ready to be deployed!
 * All sounds were downloaded from https://www.zapsplat.com/ and belong to their respective owners.
 * Background images were downloaded from [Google Images](https://images.google.com) and belong to the respective owners.
 
-## Contribute to this project
-Feel free to contributing to this project! Please read [CONTRIBUTING.md](https://github.com/akshat157/meditate-app/blob/master/CONTRIBUTING.md) to know the basic guidelines. :)
 
 ## Acknowledgments
-Shoutouts to
-
-* https://github.com/akshat157/meditate-app
-* [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)'s amazing [tutorial](https://www.youtube.com/watch?v=oMBXdZzYqEk) for the same project but using vanilla JS, HTML and CSS.
-* My friend [@Adi2612](https://github.com/Adi2612/) for helping me solve some major issues.
+* The project is based on designs of [@akshat157](https://github.com/akshat157/meditate-app) and [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)
 * Google, Stackoverflow and the whole open source community! <3
 
 Do :star: the project if you find it good enough. Thanks!
+
+## I dont own any of the content used in the project. All Music and Image rights are reserved by their respective owners
