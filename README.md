@@ -1,17 +1,18 @@
-A meditation app created on ReactJS and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jai Baba Swami
 
-![Screenshot from 2019-10-09 20-03-12](https://user-images.githubusercontent.com/34815179/66491471-629c0500-ead0-11e9-9229-7e2161519a28.png)
+A JBS Meditation Timer created on ReactJS and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## How to run?
 Clone the repository
-`git clone https://github.com/akshat157/meditate-app`<br>
+`git clone https://github.com/Rodhanp/JBS-Meditate-Timer`<br>
 Change to the project directory
-`cd meditate-app`
+`cd JBS-Meditate-Timer`
 In the project directory, you can run:
 
 Run `npm install` to install `node_modules`. You may receive an error telling you `node_modules` missing otherwise.
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -38,6 +39,8 @@ Feel free to contributing to this project! Please read [CONTRIBUTING.md](https:/
 
 ## Acknowledgments
 Shoutouts to
+
+* https://github.com/akshat157/meditate-app
 * [Dev Ed](https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q)'s amazing [tutorial](https://www.youtube.com/watch?v=oMBXdZzYqEk) for the same project but using vanilla JS, HTML and CSS.
 * My friend [@Adi2612](https://github.com/Adi2612/) for helping me solve some major issues.
 * Google, Stackoverflow and the whole open source community! <3

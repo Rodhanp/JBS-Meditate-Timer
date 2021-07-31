@@ -10,21 +10,21 @@ import './App.css'
 const playButton = 'svg/play.svg'
 const pauseButton = 'svg/pause.svg'
 
-const rainAudio = 'audio/rain.mp3'
-const forestAudio = 'audio/forest.mp3'
-const parkAudio = 'audio/park.mp3'
-const streamAudio = 'audio/stream.mp3'
-const wavesAudio = 'audio/waves.mp3'
+const rainAudio = 'audio/med_wm.mp3'
+const forestAudio = 'audio/med_wom.mp3'
+const samarpanAudio = 'audio/aarti.mp3'
+const streamAudio = 'audio/om_namo.mp3'
+const wavesAudio = 'audio/swami_namo.mp3'
 
 const loudVolumeIcon = "svg/volume-2.svg";
 const quietVolumeIcon = "svg/volume-1.svg";
 const noVolumeIcon = "svg/volume-x.svg";
 
-const rainImg = 'img/rain.jpg'
-const forestImg = 'img/forest.jpg'
-const parkImg = 'img/park.jpg'
-const streamImg = 'img/stream.jpg'
-const wavesImg = 'img/waves.jpg'
+const rainImg = 'img/med_wm.jpg'
+const forestImg = 'img/med_wom.jpg'
+const aartiImg = 'img/img_aarti.jpg'
+const streamImg = 'img/om_namo.jpg'
+const wavesImg = 'img/swami_namo.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -32,12 +32,12 @@ class App extends Component {
     this.state = {
       pbuttonUrl          : playButton,
       audioStatus         : Sound.status.STOPPED,
-      timeValues          : [120, 300, 600, 900],
-      audioNames          : ["Rain", "Forest", "Park", "Stream", "Waves"],
+      timeValues          : [900,1800,2700,],
+      audioNames          : ["Meditation with Music", "Meditation without Music", "Aarti", "Om Swami Namo Namah Dhun", "Shivakrupanand Swami Dhun"],
       seekCurrentPosition : 0,
       audioUrl            : rainAudio,      // Default
       bgImg               : rainImg,
-      desiredTime         : 120,            // Default
+      desiredTime         : 1950,            // Default
       timeHovered         : false,
       audioHovered        : false,
       volume              : 100,            // Default
@@ -78,8 +78,8 @@ class App extends Component {
       })
     } else if (x === this.state.audioNames[2]) {
       this.setState({
-        audioUrl: parkAudio,
-        bgImg: parkImg,
+        audioUrl: samarpanAudio,
+        bgImg: aartiImg,
       })
     } else if (x === this.state.audioNames[3]) {
       this.setState({
