@@ -1,6 +1,14 @@
-Jai Baba Swami
+<h1 align="center"> Jai Baba Swami </h1>
 
-A JBS Meditation Timer created for all by the grace of Gurushaktis and Gurutattva using ReactJS and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</p>
+
+<p align="center">
+  <a href="https://en.samarpanmeditation.org/"><img alt="Built by GuruShaktis" src="https://img.shields.io/badge/built%20by-GuruShaktis-brightgreen.svg?colorB=d30320"></a>
+  
+  </p>
+
+### A JBS Meditation Timer created for all by the grace of Gurushaktis and Gurutattva using ReactJS and bootstrapped with Create React App(https://github.com/facebook/create-react-app).
+ 
 
 ![Screenshot 2021-07-31 075418](https://user-images.githubusercontent.com/71846548/127725982-dc1a8739-5199-48c0-9a55-10bde39dfad7.jpg)
 
