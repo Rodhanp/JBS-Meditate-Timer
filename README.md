@@ -49,3 +49,5 @@ Your app is ready to be deployed!
 * Google, Stackoverflow and the whole open source community! <3
 
 Do :star: the project if you find it good enough. Thanks!
+
+## I dont own any of the content used in the project. All Music and Image rights are reserved by their respective owners
