@@ -10,21 +10,21 @@ import './App.css'
 const playButton = 'svg/play.svg'
 const pauseButton = 'svg/pause.svg'
 
-const rainAudio = 'audio/med_wm.mp3'
-const forestAudio = 'audio/med_wom.mp3'
-const samarpanAudio = 'audio/aarti.mp3'
-const streamAudio = 'audio/om_namo.mp3'
-const wavesAudio = 'audio/swami_namo.mp3'
+const medwmAudioAudio = 'audio/med_wm.mp3'
+const medwomAudioAudio = 'audio/med_wom.mp3'
+const aartiAudio = 'audio/aarti.mp3'
+const omnamoAudio = 'audio/om_namo.mp3'
+const shrishivAudio = 'audio/swami_namo.mp3'
 
 const loudVolumeIcon = "svg/volume-2.svg";
 const quietVolumeIcon = "svg/volume-1.svg";
 const noVolumeIcon = "svg/volume-x.svg";
 
-const rainImg = 'img/med_wm.jpg'
-const forestImg = 'img/med_wom.jpg'
+const medwmImg = 'img/med_wm.jpg'
+const medwomImg = 'img/med_wom.jpg'
 const aartiImg = 'img/img_aarti.jpg'
-const streamImg = 'img/om_namo.jpg'
-const wavesImg = 'img/swami_namo.jpg'
+const omnamoImg = 'img/om_namo.jpg'
+const shrishivImg = 'img/swami_namo.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -35,8 +35,8 @@ class App extends Component {
       timeValues          : [900,1800,2700,],
       audioNames          : ["Meditation with Music", "Meditation without Music", "Aarti", "Om Swami Namo Namah Dhun", "Shivakrupanand Swami Dhun"],
       seekCurrentPosition : 0,
-      audioUrl            : rainAudio,      // Default
-      bgImg               : rainImg,
+      audioUrl            : medwmAudioAudio,      // Default
+      bgImg               : medwmImg,
       desiredTime         : 1950,            // Default
       timeHovered         : false,
       audioHovered        : false,
@@ -73,28 +73,28 @@ class App extends Component {
 
     if (x === this.state.audioNames[1]) {
       this.setState({
-        audioUrl: forestAudio,
-        bgImg: forestImg,
+        audioUrl: medwomAudioAudio,
+        bgImg: medwomImg,
       })
     } else if (x === this.state.audioNames[2]) {
       this.setState({
-        audioUrl: samarpanAudio,
+        audioUrl: aartiAudio,
         bgImg: aartiImg,
       })
     } else if (x === this.state.audioNames[3]) {
       this.setState({
-        audioUrl: streamAudio,
-        bgImg: streamImg,
+        audioUrl: omnamoAudio,
+        bgImg: omnamoImg,
       })
     } else if (x === this.state.audioNames[4]) {
       this.setState({
-        audioUrl: wavesAudio,
-        bgImg: wavesImg,
+        audioUrl: shrishivAudio,
+        bgImg: shrishivImg,
       })
     } else {
       this.setState({
-        audioUrl: rainAudio,
-        bgImg: rainImg,
+        audioUrl: medwmAudioAudio,
+        bgImg: medwmImg,
       })
     }
   }
