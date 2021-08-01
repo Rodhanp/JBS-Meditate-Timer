@@ -10,11 +10,11 @@ import './App.css'
 const playButton = 'svg/play.svg'
 const pauseButton = 'svg/pause.svg'
 
-const medwmAudioAudio = 'audio/med_wm.mp3'
-const medwomAudioAudio = 'audio/med_wom.mp3'
+const medwmAudio = 'audio/med_wm.mp3'
+const medwomAudio = 'audio/med_wom.mp3'
 const aartiAudio = 'audio/aarti.mp3'
 const omnamoAudio = 'audio/om_namo.mp3'
-const shrishivAudio = 'audio/swami_namo.mp3'
+//const shrishivAudio = 'audio/swami_namo.mp3'
 
 const loudVolumeIcon = "svg/volume-2.svg";
 const quietVolumeIcon = "svg/volume-1.svg";
@@ -24,7 +24,7 @@ const medwmImg = 'img/med_wm.jpg'
 const medwomImg = 'img/med_wom.jpg'
 const aartiImg = 'img/img_aarti.jpg'
 const omnamoImg = 'img/om_namo.jpg'
-const shrishivImg = 'img/swami_namo.jpg'
+//const shrishivImg = 'img/swami_namo.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -33,9 +33,9 @@ class App extends Component {
       pbuttonUrl          : playButton,
       audioStatus         : Sound.status.STOPPED,
       timeValues          : [900,1800,2700,],
-      audioNames          : ["Meditation with Music", "Meditation without Music", "Aarti", "Om Swami Namo Namah Dhun", "Shivakrupanand Swami Dhun"],
+      audioNames          : ["Meditation with Music", "Meditation without Music", "Aarti", "Om Swami Namo Namah Dhun"],
       seekCurrentPosition : 0,
-      audioUrl            : medwmAudioAudio,      // Default
+      audioUrl            : medwmAudio,      // Default
       bgImg               : medwmImg,
       desiredTime         : 1950,            // Default
       timeHovered         : false,
@@ -73,7 +73,7 @@ class App extends Component {
 
     if (x === this.state.audioNames[1]) {
       this.setState({
-        audioUrl: medwomAudioAudio,
+        audioUrl: medwomAudio,
         bgImg: medwomImg,
       })
     } else if (x === this.state.audioNames[2]) {
@@ -86,14 +86,9 @@ class App extends Component {
         audioUrl: omnamoAudio,
         bgImg: omnamoImg,
       })
-    } else if (x === this.state.audioNames[4]) {
-      this.setState({
-        audioUrl: shrishivAudio,
-        bgImg: shrishivImg,
-      })
     } else {
       this.setState({
-        audioUrl: medwmAudioAudio,
+        audioUrl: medwmAudio,
         bgImg: medwmImg,
       })
     }
